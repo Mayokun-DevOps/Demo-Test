@@ -6,7 +6,7 @@ pipeline {
     stages { 
         stage('SCM Checkout') {
             steps{
-            git 'https://github.com/Mayokun-DevOps/Nodejs-Project.git'
+            git 'https://github.com/Mayokun-DevOps/Demo-Test.git'
             }
         }
 
